@@ -1,0 +1,71 @@
+header {
+	background-color: purple;
+	color: black;
+	font-family: times new roman;
+	font-size: 22px;
+	height: 180px;
+	width: 100%;
+	text-align: center;
+}
+
+h3, h4, p {
+	margin-left: 1%;
+	color: black;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+
+img {
+		width: 10%;
+	height: 55%;
+}
+
+#color {
+	height: 200px;
+	background-image: linear-gradient(purple, white);
+}
+
+#sección {
+	font-family: times new roman;
+	width: 100%;
+	font-size: 17px;
+	background-image: linear-gradient(green, white);
+}
+
+table {
+	width: 95%;
+	border-width: 3px;
+	margin-left: 1%;
+	border-collapse: collapse;
+}
+
+td, th {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #175C22;
+	font-size: 16px;
+	color: black;
+}
+
+form {
+	background-color: #3C994B;
+	width: 25%;
+	margin-left: 2%;
+}
+
+footer {
+	width: 100%;
+	background-image: linear-gradient(purple, white);
+	position: fixed;
+	height: 115px;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}

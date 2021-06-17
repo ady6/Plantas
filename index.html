@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Información sobre plantas">
+    <title>Web de Examen</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+
+<body>
+	<header>
+            <div id="color">
+				<h2>La web de las plantas</h2>
+				 <img src="imagen/plantita.jpg" >
+			</div>
+	</header>
+
+
+	<section>
+		<div id="sección">
+			<br>
+			<br>
+		   <h3>¿Qué son las plantas?</h3>
+		      <p> Las plantas son seres vivos que producen su propio alimento mediante el proceso de la fotosíntesis. Ellas captan la energía de la luz del sol a través de la clorofila y convierten el dióxido de carbono y el agua en azúcares que utilizan como fuente de energía. </p>
+		
+		   <h4>Partes de una planta:</h4>
+		                <table>
+			                <tr>
+				                <td>Raíz</td>
+				                <td>Su función es fijar a la planta. Mediante ella las plantas obtienen nutrientes del suelo.</td>
+			                </tr>
+			                <tr>
+				               <td>Tallo</td>
+				               <td>Es el que le da soporte a la planta; algunos tallos son delgados y flexibles, otros, como los de los árboles, son leñosos y duros.</td>
+			                </tr>
+			                <tr>
+				               <td>Hoja</td>
+				               <td>Es la estructura donde se realiza la fotosíntesis y la respiración.</td>
+			                </tr>
+			                <tr>
+				               <td>Flor</td>
+				               <td>Es el órgano reproductor. En su interior posee todos los órganos que necesita para fabricar el fruto y la semilla.</td>
+			                </tr>
+		                </table>
+		            <br>
+
+
+		 <form action="proceso.php" method="get">
+			<fieldset>
+				<legend> Danos tu opinión </legend>
+				
+				<p> <label> ¿Qué edad tienes? </label>
+					<input type="text" name="edad">
+				</p>
+				<p> <label> ¿Qué te ha parecido esta información? </label>
+					<select name="opción">
+		                <option value="bien">Bien</option>
+		                <option value="regular">Regular</option>
+		                <option value="mal">Mal</option>
+		            </select>
+				</p>
+				<p>
+					<input type="submit" value="Enviar">
+				</p>
+			</fieldset>
+		 </form>
+		</div>
+	</section>
+
+
+	<footer>
+		<h1>Fin de la evidencia final</h1>
+	</footer>
+
+</body>
+</html>
